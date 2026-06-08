@@ -11,7 +11,7 @@ def products_view(request):
         if name:
             products = products.filter(name__icontains=name)
     return render(request, 'products.html', {
-        'products': products
+        'products': products,
         'search_form': search_form
         })
 
