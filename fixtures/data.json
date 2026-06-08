@@ -1,0 +1,206 @@
+[
+{
+  "model": "webapp.category",
+  "pk": 1,
+  "fields": {
+    "name": "category_1",
+    "description": "category_1"
+  }
+},
+{
+  "model": "webapp.category",
+  "pk": 2,
+  "fields": {
+    "name": "category_2",
+    "description": "category_2"
+  }
+},
+{
+  "model": "webapp.category",
+  "pk": 3,
+  "fields": {
+    "name": "category_3",
+    "description": "category_3"
+  }
+},
+{
+  "model": "webapp.category",
+  "pk": 4,
+  "fields": {
+    "name": "category_4",
+    "description": "category_4"
+  }
+},
+{
+  "model": "webapp.category",
+  "pk": 5,
+  "fields": {
+    "name": "category_5",
+    "description": "category_5"
+  }
+},
+{
+  "model": "webapp.category",
+  "pk": 6,
+  "fields": {
+    "name": "category_6",
+    "description": ""
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 1,
+  "fields": {
+    "name": "product_1",
+    "description": "product_1",
+    "category": 1,
+    "created_at": "2026-06-01T11:51:54.796Z",
+    "price": "500.00",
+    "image": "https://c8.alamy.com/comp/3AB3BKY/variety-of-coca-cola-products-on-a-store-shelf-3AB3BKY.jpg",
+    "stock": 0
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 2,
+  "fields": {
+    "name": "product_2",
+    "description": "product_2",
+    "category": 2,
+    "created_at": "2026-06-01T11:52:20.091Z",
+    "price": "500.00",
+    "image": "https://c8.alamy.com/comp/3AB3BKY/variety-of-coca-cola-products-on-a-store-shelf-3AB3BKY.jpg",
+    "stock": 0
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 3,
+  "fields": {
+    "name": "product_3",
+    "description": "product_3",
+    "category": 3,
+    "created_at": "2026-06-01T11:53:01.080Z",
+    "price": "500.00",
+    "image": "https://c8.alamy.com/comp/3AB3BKY/variety-of-coca-cola-products-on-a-store-shelf-3AB3BKY.jpg",
+    "stock": 0
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 4,
+  "fields": {
+    "name": "product_4",
+    "description": "product_4",
+    "category": 1,
+    "created_at": "2026-06-01T11:53:39.377Z",
+    "price": "500.00",
+    "image": "https://c8.alamy.com/comp/3AB3BKY/variety-of-coca-cola-products-on-a-store-shelf-3AB3BKY.jpg",
+    "stock": 0
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 5,
+  "fields": {
+    "name": "product_5",
+    "description": "product_5",
+    "category": 5,
+    "created_at": "2026-06-01T11:54:13.169Z",
+    "price": "500.00",
+    "image": "https://c8.alamy.com/comp/3AB3BKY/variety-of-coca-cola-products-on-a-store-shelf-3AB3BKY.jpg",
+    "stock": 0
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 6,
+  "fields": {
+    "name": "product_6",
+    "description": "product_6",
+    "category": 6,
+    "created_at": "2026-06-08T10:23:32.677Z",
+    "price": "500.00",
+    "image": "https://c8.alamy.com/comp/3AB3BKY/variety-of-coca-cola-products-on-a-store-shelf-3AB3BKY.jpg",
+    "stock": 7
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 7,
+  "fields": {
+    "name": "product_7",
+    "description": "product_7",
+    "category": 1,
+    "created_at": "2026-06-08T10:24:35.459Z",
+    "price": "5000.00",
+    "image": "https://c8.alamy.com/comp/3AB3BKY/variety-of-coca-cola-products-on-a-store-shelf-3AB3BKY.jpg",
+    "stock": 2
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 8,
+  "fields": {
+    "name": "product_8",
+    "description": "product_8",
+    "category": 2,
+    "created_at": "2026-06-08T10:25:13.381Z",
+    "price": "700.00",
+    "image": "https://c8.alamy.com/comp/3AB3BKY/variety-of-coca-cola-products-on-a-store-shelf-3AB3BKY.jpg",
+    "stock": 0
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 9,
+  "fields": {
+    "name": "product_9",
+    "description": "product_9",
+    "category": 3,
+    "created_at": "2026-06-08T10:25:43.805Z",
+    "price": "600.99",
+    "image": "https://c8.alamy.com/comp/3AB3BKY/variety-of-coca-cola-products-on-a-store-shelf-3AB3BKY.jpg",
+    "stock": 4
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 10,
+  "fields": {
+    "name": "product_10",
+    "description": "product_10",
+    "category": 4,
+    "created_at": "2026-06-08T10:26:14.848Z",
+    "price": "500.00",
+    "image": "https://c8.alamy.com/comp/3AB3BKY/variety-of-coca-cola-products-on-a-store-shelf-3AB3BKY.jpg",
+    "stock": 11
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 11,
+  "fields": {
+    "name": "product_11",
+    "description": "product_11",
+    "category": 5,
+    "created_at": "2026-06-08T10:26:47.836Z",
+    "price": "100.45",
+    "image": "https://c8.alamy.com/comp/3AB3BKY/variety-of-coca-cola-products-on-a-store-shelf-3AB3BKY.jpg",
+    "stock": 3
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 12,
+  "fields": {
+    "name": "product_12",
+    "description": "product_12",
+    "category": 6,
+    "created_at": "2026-06-08T10:27:41.755Z",
+    "price": "400.00",
+    "image": "https://c8.alamy.com/comp/3AB3BKY/variety-of-coca-cola-products-on-a-store-shelf-3AB3BKY.jpg",
+    "stock": 1
+  }
+}
+]
