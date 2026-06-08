@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block title %}Edit Product{% endblock %}
+
+{% block content %}
+<h1 class="mb-4">Edit Product</h1>
+<form method="post" style="max-width: 500px;">
+    {% csrf_token %}
+    {% include 'product_form_fields.html' %}
+    <button type="submit" class="btn btn-success">Save</button>
+    <a href="{% url 'product_detail' product.pk %}" class="btn btn-secondary ms-2">Cancel</a>
+</form>
+{% endblock %}

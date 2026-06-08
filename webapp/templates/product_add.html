@@ -6,30 +6,8 @@
 <h1 class="mb-4">Add Product</h1>
 <form method="post" style="max-width: 500px;">
     {% csrf_token %}
-    <div class="mb-3">
-        <label class="form-label">Title *</label>
-        <input type="text" name="name" class="form-control" required>
-    </div>
-    <div class="mb-3">
-        <label class="form-label">Price *</label>
-        <input type="text" name="price" class="form-control" required>
-    </div>
-    <div class="mb-3">
-        <label class="form-label">Image url *</label>
-        <input type="text" name="image" class="form-control" required>
-    </div>
-    <div class="mb-3">
-        <label class="form-label">Category *</label>
-        <select name="category" class="form-select" required>
-            {% for category in categories %}
-            <option value="{{ category.pk }}">{{ category.name }}</option>
-            {% endfor %}
-        </select>
-    </div>
-    <div class="mb-3">
-        <label class="form-label">Description</label>
-        <textarea name="description" class="form-control" rows="4"></textarea>
-    </div>
+    {% include 'product_form_fields.html' %}
     <button type="submit" class="btn btn-primary">Add product</button>
-</form>
-{% endblock %}
+    <a href="{% url 'products' %}" class="btn btn-secondary ms-2">Cancel</a>
+    </form>
+    {% endblock %}

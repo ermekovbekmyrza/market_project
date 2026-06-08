@@ -11,8 +11,11 @@
         <h1>{{ product.name }}</h1>
         <p class="text-muted">{{ product.category }}</p>
         <p><strong>Price: ${{ product.price }}</strong></p>
+        <p>Stock: {{ product.stock }}</p>
         <p style="white-space: pre-wrap;">{{ product.description|default:"—" }}</p>
         <p class="text-muted">Added: {{ product.created_at }}</p>
+        <a href="{% url 'product_edit' product.pk %}" class="btn btn-warning">Edit</a>
+        <a href="{% url 'product_delete' product.pk %}" class="btn btn-danger ms-2">Delete</a>
     </div>
 </div>
 {% endblock %}
